@@ -1,0 +1,90 @@
+body {
+  background-color: black;
+  p {
+    color: white;
+  }
+  h3 {
+    color: white;
+    width: 2.074rem;
+  }
+  h4 {
+    color: #ebe9e9;
+    width: 1.728rem;
+  }
+  header {
+    background-image: url(./bilder/Anime\ titelbild.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40rem;
+    border: solid 1px red;
+    width: 100%;
+    h1 {
+      color: white;
+      width: 2.986rem;
+    }
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      li {
+        margin: 1px;
+        border: solid 0.125rem red;
+        list-style: none;
+        border-radius: 40px;
+        width: 80px;
+        :hover {
+          background-color: red;
+        }
+        a {
+          margin: 4px;
+          text-decoration: none;
+          color: rgb(142, 164, 223);
+          font-weight: bold;
+        }
+      }
+    }
+  }
+  main {
+    .card-container1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: solid 3px red;
+      .sao {
+        border: solid 3px red;
+        border-radius: 1rem;
+        padding: 5rem;
+        text-align: center;
+        img {
+          width: 20rem;
+        }
+      }
+      .rimuru {
+        border: solid 3px red;
+        border-radius: 1rem;
+        padding: 4rem;
+        text-align: center;
+        img {
+          width: 30rem;
+        }
+      }
+      .card-container2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: solid 3px red;
+        .elfenlied {
+          border: solid 3px red;
+        }
+        .sololeveling {
+          border: solid 3px red;
+        }
+      }
+    }
+  }
+}
