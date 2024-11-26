@@ -1,6 +1,29 @@
-body{
-    .sao{
-        border: solid 2px red;
-        img{width: 160px;}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  main {
+    .card-container1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: solid 3px red;
+      .card {
+        border: solid 3px rgba(255, 0, 0, 0.562);
+        border-radius: 1rem;
+        padding: 4rem;
+        text-align: center;
+        img {
+          width: 20rem;
+        }
+        p {
+          width: 25rem;
+          scroll-behavior: auto;
+          sc
+        }
+      }
     }
+  }
 }
