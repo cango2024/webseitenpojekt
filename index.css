@@ -3,24 +3,55 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* Misc */
+.btn {
+  padding: 1rem 1.5rem;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  text-decoration: none;
+  color: white;
+}
+
+.btn-danger {
+  background-color: orangered;
+}
+
 body {
+  background-color: rgb(49, 49, 49);
+  font-family: Anta;
   main {
     .card-container1 {
       display: flex;
       justify-content: center;
       align-items: center;
-      border: solid 3px red;
+
+      gap: 1rem;
+      padding: 8rem 0;
       .card {
-        border: solid 3px rgba(255, 0, 0, 0.562);
+        background-color: rgb(22, 22, 22);
+        min-height: 55rem;
+        /* border: solid 3px rgba(255, 0, 0, 0.562); */
         border-radius: 1rem;
-        padding: 4rem;
         text-align: center;
-        img {
-          width: 20rem;
-        }
-        p {
-          width: 25rem;
-          color: #ffffff;
+
+        .img-container {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          gap: 2rem;
+          width: 30rem;
+          padding: 2rem;
+
+          img {
+            width: 100%;
+            border-radius: 1rem;
+          }
+          p {
+            color: #ffffff;
+            text-align: justify;
+          }
         }
       }
     }
