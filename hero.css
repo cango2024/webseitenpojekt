@@ -4,9 +4,27 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: colny regular;
+  src: url(./font/Coiny-Regular.ttf) format(truetype);
+}
+@font-face {
+  font-family: fontstars;
+  src: url(./font/Fonstars-4Bo0p.otf) format(opentype);
+}
+@font-face {
+  font-family: maven;
+  src: url(./font/maven-pro.bold.ttf) format(truetype);
+}
+@font-face {
+  font-family: otaku-rant;
+  src: url(./font/otaku-rant.bold.ttf);
+}
+
 h1 {
   color: rgb(27, 67, 197);
   font-size: 4rem;
+  font-family: otaku-rant;
 }
 h3 {
   color: rgb(197, 196, 196);
@@ -57,6 +75,7 @@ header {
           margin: 4px;
           text-decoration: none;
           color: rgb(231, 229, 229);
+          font-family: maven;
           font-weight: bold;
           font-size: 1.2rem;
           border-radius: 0.4rem;
