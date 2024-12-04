@@ -123,5 +123,73 @@ body {
         }
       }
     }
+    .card-container4 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      gap: 1rem;
+      padding: 8rem 0;
+      .card {
+        background-color: rgb(22, 22, 22);
+        min-height: 55rem;
+        /* border: solid 3px rgba(255, 0, 0, 0.562); */
+        border-radius: 1rem;
+        text-align: center;
+
+        .img-container {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          gap: 2rem;
+          width: 30rem;
+          padding: 2rem;
+
+          img {
+            width: 100%;
+            border-radius: 1rem;
+          }
+          p {
+            color: #ffffff;
+            text-align: justify;
+          }
+        }
+      }
+    }
+    .card-container5 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      gap: 1rem;
+      padding: 8rem 0;
+      .card {
+        background-color: rgb(22, 22, 22);
+        min-height: 55rem;
+        /* border: solid 3px rgba(255, 0, 0, 0.562); */
+        border-radius: 1rem;
+        text-align: center;
+
+        .img-container {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          gap: 2rem;
+          width: 30rem;
+          padding: 2rem;
+
+          img {
+            width: 100%;
+            border-radius: 1rem;
+          }
+          p {
+            color: #ffffff;
+            text-align: justify;
+          }
+        }
+      }
+    }
   }
 }
