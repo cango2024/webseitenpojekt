@@ -23,16 +23,32 @@
 
 h1 {
   color: rgb(27, 67, 197);
-  font-size: 4rem;
+  font-size:5.61rem;
   font-family: otaku-rant;
+}
+h2{
+  font-size: 4.209rem;
 }
 h3 {
   color: rgb(197, 196, 196);
-  font-size: 1.7rem;
+  font-size:3.157rem;
 }
 h4 {
   color: #ebe9e9;
-  font-size: 1.3rem;
+  font-size:2.369rem;
+}
+h5{
+ font-size: 1.777rem;
+ color: #d4d0d0;
+}
+h6{
+  font-size:1.333rem;
+}
+p{
+  font-size: 1rem;
+}
+small{
+  font-size: 0.75rem;
 }
 header {
   background-image: url(./bilder/sternenhimmel.webp);

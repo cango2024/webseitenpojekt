@@ -10,7 +10,7 @@
   background-color: #ffffff;
   border-radius: 1rem;
   text-decoration: none;
-  color: white;
+  color:whitesmoke;
 }
 
 .btn-danger {
@@ -18,10 +18,44 @@
 }
 
 body {
-  background-color: rgb(49, 49, 49);
+  background-color:black;
   font-family:colny regular;
   main {
     .card-container1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      gap: 1rem;
+      padding: 8rem 0;
+      .card {
+        background-color: rgb(49, 49, 49);
+        min-height: 55rem;
+        /* border: solid 3px rgba(255, 0, 0, 0.562); */
+        border-radius: 1rem;
+        text-align: center;
+
+        .img-container {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          gap: 2rem;
+          width: 30rem;
+          padding: 2rem;
+
+          img {
+            width: 100%;
+            border-radius: 1rem;
+          }
+          p {
+            color: #b6afaf;
+            text-align: justify;
+          }
+        }
+      }
+    }
+    .card-container2 {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -49,13 +83,13 @@ body {
             border-radius: 1rem;
           }
           p {
-            color: #b6afaf;
+            color: #ffffff;
             text-align: justify;
           }
         }
       }
     }
-    .card-container2 {
+    .card-container3 {
       display: flex;
       justify-content: center;
       align-items: center;
