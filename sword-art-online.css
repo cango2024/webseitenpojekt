@@ -1,98 +1,170 @@
-body{
-    background-color: rgb(36, 34, 34);
-main{
+body {
+  background-color: rgb(36, 34, 34);
+  main {
     background-imae: url(./bilder/sao2.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repet;
-    
+
     height: 100rem;
-    .anime-titel{
-        display: flex;
-        justify-content: center;
+    .anime-titel {
+      display: flex;
+      justify-content: center;
     }
-    .text{
-        margin: 1rem;
+    .text {
+      margin: 1rem;
     }
-    h3{
-        display: flex;
+    h3 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 3rem;
+      padding: 1rem;
+      background-color: rgba(255, 255, 255, 0.192);
+    }
+    .kirito-img {
+      display: flex;
+      justify-content: space-between;
+      margin: 3rem;
+      div {
+        btorder: solid 0.125rem red;
         justify-content: center;
         align-items: center;
-        margin: 3rem;
-        background-color: rgba(255, 255, 255, 0.192);
-    }
-    .kirito-img{
-        display: flex;
-        justify-content:space-between;
-        margin: 3rem;
-        div{
-            btorder: solid .125rem red;
-            justify-content: center;
-            align-items: center;
-            margin: 4rem;
-            padding: 0.5rem;
-            
-            p{
-                direction: ltr;
-                text-align: justify;
-                font-family:colny regular;
-            }
+        margin: 4rem;
+        padding: 0.5rem;
+
+        p {
+          direction: ltr;
+          text-align: justify;
+          font-family: colny regular;
         }
+      }
     }
-    .asuna-img{
+    .asuna-img {
+      display: flex;
+      justify-content: space-between;
+      margin: 3rem;
+      .asuna-sao {
+        max-width: 25rem;
+        align-items: center;
+      }
+
+      div {
+        tborder: solid 0.125rem red;
+        justify-content: center;
+        align-items: center;
+        margin: 4rem;
+        max-width: 25rem;
+        padding: 1rem;
+      }
+      p {
+        direction: ltr;
+        text-align: justify;
+        font-family: colny regular;
+      }
+    }
+    .yui-img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 10rem;
+
+      div {
+        border: solid 0.125rem red;
+        justify-content: space-between;
+        align-items: center;
+        margin: 4rem;
+        max-width: 30rem;
+        padding: 1rem;
+      }
+      p {
+        direction: ltr;
+        text-align: justify;
+        font-family: colny regular;
+      }
+    }
+    .klein-img {
+      display: flex;
+      justify-content: space-between;
+      margin: 3rem;
+
+      div {
+        tborder: solid 0.125rem red;
+        justify-content: center;
+        align-items: center;
+        margin: 4rem;
+        max-width: 25rem;
+        padding: 1rem;
+      }
+      p {
+        direction: ltr;
+        text-align: justify;
+        font-family: colny regular;
+      }
+    }
+    .agil-img {
+      display: flex;
+      justify-content: space-between;
+      margin: 3rem;
+      div {
+        tborder: solid 0.125rem red;
+        justify-content: center;
+        align-items: center;
+        margin: 4rem;
+        max-width: 25rem;
+        padding: 1rem;
+      }
+      p {
+        direction: ltr;
+        text-align: justify;
+        font-family: colny regular;
+      }
+    }
+    .lisbeth-img {
         display: flex;
         justify-content: space-between;
         margin: 3rem;
-        .asuna-sao{
-            max-width: 25rem;
-            align-items: center;
+        .asuna-sao {
+          max-width: 25rem;
+          align-items: center;
         }
-        
-        div{
-            tborder: solid .125rem red;
-            justify-content: center;
-            align-items: center;
-            margin: 4rem;
-            max-width:25rem;
-            padding: 1rem;
-           
-        
-            };
-            p{
-                direction: ltr;
-                text-align: justify;
-                font-family:colny regular;
-            }
+  
+        div {
+          tborder: solid 0.125rem red;
+          justify-content: center;
+          align-items: center;
+          margin: 4rem;
+          max-width: 25rem;
+          padding: 1rem;
         }
-        .yui-img{
-            display: flex;
-            justify-content:center;
-            align-items: center;
-            margin: 10rem;
-            .asuna-sao{
-                align-items: center;
-            }
-            
-            div{
-                border: solid .125rem red;
-                justify-content: center;
-                align-items: center;
-                margin: 4rem;
-                max-width:30rem;
-                padding: 1rem;
-                }
-                p{
-                    direction: ltr;
-                    text-align: justify;
-                    font-family:colny regular;
-                }
-            }
+        p {
+          direction: ltr;
+          text-align: justify;
+          font-family: colny regular;
+        }
+  }
+  .silica-img {
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem;
+    .asuna-sao {
+      max-width: 25rem;
+      align-items: center;
     }
-    
+
+    div {
+      tborder: solid 0.125rem red;
+      justify-content: center;
+      align-items: center;
+      margin: 4rem;
+      max-width: 25rem;
+      padding: 1rem;
+    }
+    p {
+      direction: ltr;
+      text-align: justify;
+      font-family: colny regular;
+    }
 }
-
-
-
-
-
-
+}
+}
