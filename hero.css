@@ -30,7 +30,7 @@ h2{
   font-size: 4.209rem;
 }
 h3 {
-  color: rgb(197, 196, 196);
+  color: rgb(209, 201, 201);
   font-size:3.157rem;
 }
 h4 {
@@ -46,6 +46,7 @@ h6{
 }
 p{
   font-size: 1rem;
+  color: whitesmoke;
 }
 small{
   font-size: 0.75rem;
